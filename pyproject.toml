@@ -1,0 +1,10 @@
+[project]
+name = "workflow-history-tool"
+version = "0.1.0"
+description = "MCP server to read ~/.workflow chat session logs"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+]
+
