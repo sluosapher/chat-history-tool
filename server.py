@@ -118,12 +118,12 @@ async def get_chat_history(session_id: int) -> dict:
         raise RuntimeError(f"Error in get_chat_history: {str(e)}")
     
 
-    
+
 #### Tool Registration ####
 
 # List of all tool functions to register
 TOOL_FUNCTIONS = [
-    example_tool,
+    # example_tool,
     get_chat_history,
     # Add additional tool functions here
 ]
